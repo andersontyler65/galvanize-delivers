@@ -1,0 +1,126 @@
+.nav-wrapper {
+  background-color: rgb(68, 81, 195);
+}
+
+.parallax-container {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px;
+  text-align: center;
+}
+
+#frontMargin{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.btn1 {
+  height: 50px;
+  width: 200px;
+  background-color: salmon;
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 10px;
+  color: white;
+}
+
+
+.white-title {
+  color: white;
+  font-weight: bold;
+}
+
+.FD {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: salmon;
+  display:inline;
+}
+
+.PP1 {
+  font-size: 15px;
+}
+
+.material-icons {
+  font-size: 2rem;
+  color: salmon;
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-right: 10px;
+}
+
+.footer {
+  background-color: rgb(68, 81, 195);
+  padding-top: 40px;
+}
+
+/*order page*/
+
+.menu {
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+.card-content {
+  font-size: 15px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.card {
+  font-size: 12px;
+  height: 350px;
+  width: 200px;
+}
+
+#mainOrder{
+  margin-left: 200px;
+}
+
+#order {
+  color: salmon;
+}
+
+h5 {
+  font-size: 12px;
+  padding-top: 30px
+}
+
+#title {
+  display: inline-block;
+  color: black;
+}
+
+#total{
+  background-color: white;
+}
+
+.material-icons{
+  margin-top: 5px;
+}
+
+#push {
+  margin-left: 800px;
+}
+
+#move {
+  margin-left: 150px;
+}
+
+#MIP {
+  maring
+}
+
+.btn2 {
+  height: 50px;
+  width: 150px;
+  background-color: salmon;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding-top: 15px;
+  padding-left: 20px;
+  color: white;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/delivery.css" media="screen,projection" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Galvanize Delivers</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="collapsible.html">Order Delivery</a></li>
+    </div>
+  </nav>
+  <!-- Pagelayout Columns -->
+  <div class="menu">
+    <h3 class="title">Menu</h3>
+    <h3 clas="title">Order</h3>
+
+    <!-- card1 -->
+  <div class="row">
+      <div class="col s2 push-s1">
+        <div class="row">
+          <div class="col s12 m5">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/burger.jpg">
+              </div>
+              <div class="card-content">
+                <h5>Royale with Cheese</h5>
+                <p>$8.99</p>
+              </div>
+              <div class="card-action">
+                <a id="order" href="#">Add To Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- card2 -->
+      <div class="col s2 push-s1">
+        <div class="row">
+          <div class="col s12 m5">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/pizza.jpg">
+              </div>
+              <div class="card-content">
+                <h5>Arugula Pie</h5>
+                <p>$11.99</p>
+              </div>
+              <div class="card-action">
+                <a id="order" href="#">Add To Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s5 push-s2">
+          <table class="striped">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th></th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Royale with Cheese</td>
+                <td></td>
+                <td>$8.99</td>
+              </tr>
+              <tr>
+                <td>Arugula Pie</td>
+                <td></td>
+                <td>$11.99</td>
+              </tr>
+              <tr>
+                <td>Smoked Swine</td>
+                <td></td>
+                <td>$14.99</td>
+              </tr>
+              <tr>
+                <td>Ice Cream Biscut</td>
+                <td></td>
+                <td>$7.99</td>
+              </tr>
+              <tr id="total">
+                <td></td>
+                <td>Subtotal</td>
+                <td>$7.00</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Tax</td>
+                <td>$7.00</td>
+              </tr>
+              <tr id="total">
+                <td></td>
+                <td>Total</td>
+                <td>$7.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+      <!-- card3-->
+        <div class="col s2 push-s1" style="bottom:70px;">
+          <div class="row">
+            <div class="col s12 m5">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/ribs.jpg">
+                </div>
+                <div class="card-content">
+                  <h5>Smoked Swine</h5>
+                  <p>$14.99</p>
+                </div>
+                <div class="card-action">
+                  <a id="order" href="#">Add To Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card4 -->
+        <div class="col s3 push-s1" style="bottom:70px";>
+          <div class="row">
+            <div class="col s12 m5">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/ice_cream.jpg">
+                </div>
+                <div class="card-content">
+                  <h5>Ice Cream Biscut</h5>
+                  <p>$7.99</p>
+                </div>
+                <div class="card-action">
+                  <a id="order" href="#">Add To Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cart -->
+        <div class="col s6 push-s1" style="bottom:50px";>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix" style="bottom:20px">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix" style="bottom:20px">phone</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Phone Number</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix" style="bottom:20px">business</i>
+                  <input id="icon_prefix" type="tel" class="validate">
+                  <label for="icon_prefix">Address</label>
+                </div>
+              </div>
+              <a class="btn2" href="file:///Users/Tyler/Galvanize/galvanize-delivers/order.html" type="button" style="bottom:25px">Place Your Order</button></a>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Galvanize Delivers</h5>
+          <p class="grey-text text-lighten-4">Fine Dining, Delivered.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Home</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!"> Order Delivery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
