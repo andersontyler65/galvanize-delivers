@@ -1,5 +1,5 @@
 .nav-wrapper {
-  background-color: rgb(68, 81, 195);
+  background-color: rgb(81, 193, 85);
 }
 
 .parallax-container {
@@ -18,7 +18,7 @@
 .btn1 {
   height: 50px;
   width: 200px;
-  background-color: salmon;
+  background-color: rgb(69, 79, 212);
   display: inline-block;
   font-size: 20px;
   padding-top: 10px;
@@ -34,7 +34,7 @@
 .FD {
   font-size: 30px;
   font-family: sans-serif;
-  color: salmon;
+  color: rgb(69, 79, 212);
   display:inline;
 }
 
@@ -44,14 +44,14 @@
 
 .material-icons {
   font-size: 2rem;
-  color: salmon;
+  color: rgb(69, 79, 212);
   margin-top: 50px;
   padding-top: 60px;
   padding-right: 10px;
 }
 
 .footer {
-  background-color: rgb(68, 81, 195);
+  background-color: rgb(81, 193, 85);
   padding-top: 40px;
 }
 
@@ -78,7 +78,7 @@
   margin-left: 200px;
 }
 
-#order {
+.order {
   color: salmon;
 }
 
@@ -115,7 +115,7 @@ h5 {
 .btn2 {
   height: 50px;
   width: 150px;
-  background-color: salmon;
+  background-color: rgb(69, 79, 212);
   display: inline-block;
   font-size: 15px;
   margin-top: 30px;
