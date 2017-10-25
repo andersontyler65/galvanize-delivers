@@ -109,6 +109,7 @@ $(document).ready(function() {
     event.preventDefault();
   })
   $('.submit-button').click(function (event) {
+    event.preventDefault();
     if (($('#name').val() !== "") && ($('#phone').val() !== "") && ($('#address').val() !== "")) {
       $('#modal1').modal('open')
       let name = $('#name').val()
